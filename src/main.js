@@ -1,3 +1,5 @@
-export const main = () => {
+const main = () => {
   console.log("TEST");
 };
+
+main();
