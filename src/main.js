@@ -1,5 +1,3 @@
-const main = () => {
-  console.log("TEST");
+export const main = () => {
+  console.log("AKI");
 };
-
-main();
