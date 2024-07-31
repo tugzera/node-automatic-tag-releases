@@ -5,4 +5,5 @@ export const main = () => {
   console.log("feat2");
   console.log("feat3");
   console.log("feat4");
+  console.log("feat5");
 };
