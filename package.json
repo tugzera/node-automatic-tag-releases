@@ -21,7 +21,17 @@
   },
   "release": {
     "branches": [
-      "main"
+      {
+        "name": "main"
+      },
+      {
+        "name": "develop",
+        "prerelease": "develop"
+      },
+      {
+        "name": "test",
+        "prerelease": "test"
+      }
     ],
     "repositoryUrl": "https://github.com/tugzera/node-automatic-tag-releases",
     "plugins": [
