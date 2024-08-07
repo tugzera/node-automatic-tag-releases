@@ -21,20 +21,19 @@
   },
   "release": {
     "branches": [
-      "main",
+      {
+        "name": "main"
+      },
       {
         "name": "dev",
-        "prerelease": "dev",
-        "channel": "dev"
+        "prerelease": "dev"
       },
       {
         "name": "test",
-        "prerelease": "test",
-        "channel": "test"
+        "prerelease": "test"
       }
     ],
     "repositoryUrl": "https://github.com/tugzera/node-automatic-tag-releases",
-    "tagFormat": "${version}${preRelease ? '-' + preRelease : ''}",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
