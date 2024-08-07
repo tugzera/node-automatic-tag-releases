@@ -34,7 +34,7 @@
       }
     ],
     "repositoryUrl": "https://github.com/tugzera/node-automatic-tag-releases",
-    "tagFormat": "${version}${prerelease ? '-' + prerelease : ''}",
+    "tagFormat": "${version}${preRelease ? '-' + preRelease : ''}",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
