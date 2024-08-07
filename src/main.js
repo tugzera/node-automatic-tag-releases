@@ -8,4 +8,5 @@ export const main = () => {
   console.log("feat6");
   console.log("feat7");
   console.log("feat8");
+  console.log("feat9");
 };
