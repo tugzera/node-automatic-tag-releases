@@ -1,6 +1,6 @@
 {
   "name": "automatic-tag-releases",
-  "version": "2.4.0",
+  "version": "2.10.0-develop.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,12 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
       [
         "@semantic-release/git",
         {
